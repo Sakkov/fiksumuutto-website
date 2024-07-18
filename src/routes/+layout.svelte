@@ -41,7 +41,7 @@ parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-5RBHS
 		<Hero />
 		{/if}
 		
-		<Chatbot />
+		<!-- <Chatbot /> -->
 
 		<main>
 			<slot />

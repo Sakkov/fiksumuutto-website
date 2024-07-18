@@ -21,7 +21,8 @@
 				{ name: 'Muutto', href: '/muuttowiki' }
 			]
 		},
-		{ name: 'Yhteystiedot', href: '/yhteystiedot' }
+		{ name: 'Yhteystiedot', href: '/yhteystiedot' },
+		{ name: 'Pohjanmaa', href: '/pohjanmaa' }
 	];
 
 	let showMenu = false;
@@ -94,7 +95,7 @@
 					</div>
 				{:else if link.dropDown}
 					<div class="nav__list-item dropdown">
-						<span class="dropbtn nav-link">Muuttopalvelut<span class="dropdown-arrow" /></span>
+						<span class="dropbtn nav-link">{link.name}<span class="dropdown-arrow" /></span>
 						<div class="dropdown-content">
 							{#each link.dropDown as dropDown (dropDown.href)}
 								<a
@@ -128,7 +129,7 @@
 						</div>
 					{:else if link.dropDown}
 						<div class="nav__list-item dropdown">
-							<span class="dropbtn nav-link">Muuttopalvelut<span class="dropdown-arrow" /></span>
+							<span class="dropbtn nav-link">{link.name}<span class="dropdown-arrow" /></span>
 							<div class="dropdown-content">
 								{#each link.dropDown as dropDown (dropDown.href)}
 									<a

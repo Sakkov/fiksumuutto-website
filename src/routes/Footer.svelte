@@ -12,6 +12,6 @@
         </a>
     </div>
     <div class="footer-cc">
-        © 2022 Fiksu Kuljetus Oy | <a href="/policy">Tietosuojaseloste</a> | Nettisivut tehnyt <a href="https://kovanen.io">kovanen.io</a>
+        © 2024 Fiksu Kuljetus Oy | <a href="/policy">Tietosuojaseloste</a> | Nettisivut tehnyt <a href="https://kovanen.io">kovanen.io</a>
     </div>
 </footer>

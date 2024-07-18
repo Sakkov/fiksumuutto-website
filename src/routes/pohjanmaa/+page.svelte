@@ -1,8 +1,8 @@
 <script lang="ts">
 	// Import elements
-	import ContactForm from './ContactForm.svelte';
-	import CallToAction from './CallToAction.svelte';
-	import ImageCarousel from './ImageCarousel.svelte';
+	import ContactForm from '../ContactForm.svelte';
+	import CallToAction from '../CallToAction.svelte';
+	import ImageCarousel from '../ImageCarousel.svelte';
 
 	// Import images
 	import Background_80_w854 from '$lib/Images/background_80_w854.webp';
@@ -13,15 +13,18 @@
 </script>
 
 <svelte:head>
-	<title>Muutto, Muutot, Muuttopalvelu Tampere & Pirkanmaa</title>
+	<title>Muutto, Muutot, Muuttopalvelu Vaasa ja Pohjanmaa</title>
 	<meta
 		name="description"
-		content="Fiksukuljetus Oy - muuttopalvelu Tampere ja Pirkanmaa alueella. Edulliset ja tehokkaat muutot
+		content="Fiksukuljetus Oy - muuttopalvelu Pohjanmaan ja Pohjanmaan alueella. Edulliset ja tehokkaat muutot
 		juuri sinun aikataulujesi mukaan. Tilaa muutto kauttamme!"
 	/>
 </svelte:head>
 
 <article class="content">
+	<h2 class="otsikko">
+		Tarjoamme muuttopalveluja myös Pohjanmaalla!
+	</h2>
 	<CallToAction />
 	<div class="grid">
 		<h3>
@@ -56,16 +59,15 @@
 	</div>
 	<div id="review-scores">
 		<a href="https://goo.gl/maps/QBsBbFJ2cU4Mm3x37" target="_blank">
-			<img src={Garvostelua} alt="muutto tampere parhaat arvostelut" />
+			<img src={Garvostelua} alt="muutto Vaasa parhaat arvostelut" />
 		</a>
 		<a href="https://www.facebook.com/Fiksukuljetus/" target="_blank">
-			<img src={Farvostelua} alt="5 tähden muuttopalvelu tampere" />
+			<img src={Farvostelua} alt="5 tähden muuttopalvelu Vaasa" />
 		</a>
 		<a href="https://extra.muuttomaailma.fi/company/mMnhwKMn" target="_blank">
-			<img src={Marvostelua} alt="muutto tampere arvostelut" />
+			<img src={Marvostelua} alt="muutto Vaasa arvostelut" />
 		</a>
 	</div>
-	<h3 style="text-align: center ;">Tarjoamme muuttopalveluja myös <a href="/pohjanmaa">Pohjanmaalla</a>!</h3>
 	<div class="reviews">
 		<div class="review">
 			<p>
@@ -123,11 +125,11 @@
 		/>
 	</div>
 	<p>
-		<strong>Fiksukuljetus Oy</strong> on Pirkanmaan alueella toimiva muuttofirma. Meidän kauttamme
+		<strong>Fiksukuljetus Oy</strong> on Pohjanmaan ja Pirkanmaan alueella toimiva muuttofirma. Meidän kauttamme
 		saat edulliset ja tehokkaat muutot juuri sinun aikataulujesi mukaan. Meiltä onnistuu niin
 		<strong>kotimuutot</strong>, kuin <strong>yritysmuutotkin</strong>. Myös painavien esineiden,
 		kuten pianojen kuljettaminen onnistuu käden käänteessä! Päätoimipisteemme sijaitsee Tampereella,
-		joten jos muuttosi toinen kohde sijaitsee Pirkanmaan alueella, pyydä rohkeasti tarjousta!
+		joten jos muuttosi toinen kohde sijaitsee Pohjanmaan tai Pirkanmaan alueella, pyydä rohkeasti tarjousta!
 	</p>
 	<h3 style="text-align: center ;">Muuton yhteydessä siivous edullisemmin!</h3>
 	<p>
@@ -141,22 +143,17 @@
 
 <section class="content" id="aboutus">
 	<h2>Yrityksestämme</h2>
-	<h1>Fiksukuljetus Oy, paras muuttofirma Pirkanmaalla</h1>
+	<h1>Fiksukuljetus Oy, paras muuttofirma Pohjanmaalla ja Vaasassa</h1>
 	<p>
-		Toimialueemme pääosin on Tampere, Ylöjärvi, Nokia, Pirkkala, Lempäälä, Kangasala ja koko
-		Pirkanmaa. Teemme myös pitkänmatkan muuttoja. Kysy tarjousta!
+		Pohjanmaan yksikkömme toiminta-alue kattaa pääosin Vaasan ja koko Pohjanmaan. Tarjoamme ammattitaitoista palvelua, kun aiheena on <strong>muutto Pohjanmaa</strong> ja <strong>muutto Vaasa</strong>. Teemme myös pitkänmatkan muuttoja. Kysy tarjousta!
 	</p>
 	<p>
-		Toimenkuvaamme kuluu mm. muutot, lyhyen matkan muutto, pitkän matkan muutto, painavien
-		tavaroiden kantoapu, kuljetukset, loppusiivoukset, muuttolaatikot ja kaikenlaiset muut työt.
+		Toimenkuvaamme kuuluu mm. muutot, lyhyen matkan muutot, pitkän matkan muutot, painavien tavaroiden kantoapu, kuljetukset, loppusiivoukset, muuttolaatikot ja kaikenlaiset muut työt. Kun suunnittelet muuttoa Pohjanmaalla tai Vaasassa, me olemme luotettava kumppanisi.
 	</p>
 	<p>
-		Yrityksemme tunnetaan reippaasta, huolellisesta ja laadukkaasta palvelusta sekä ahkerista
-		muuttomiehistämme. Pystymme hoitamaan muutot täysin itsenäisesti alusta loppuun asti.
-		Itsenäisten muuttojen lisäksi pystymme hoitamaan muutot halutessasi vain osittain esimerkiksi
-		raskaimpien tavaroiden kantamisen. Kuuntelemme aina asiakkaan tarpeen ja suunnittelemme
-		mahdollisimman huolettoman ja stressittömän toteutuksen asiakkaille.
+		Yrityksemme tunnetaan reippaasta, huolellisesta ja laadukkaasta palvelusta sekä ahkerista muuttomiehistämme. Pystymme hoitamaan muutot täysin itsenäisesti alusta loppuun asti. Itsenäisten muuttojen lisäksi pystymme hoitamaan muutot halutessasi vain osittain, esimerkiksi raskaimpien tavaroiden kantamisen. Kuuntelemme aina asiakkaan tarpeet ja suunnittelemme mahdollisimman huolettoman ja stressittömän toteutuksen asiakkaille, olipa kyseessä <strong>muutto Pohjanmaalla</strong> tai <strong>muutto Vaasassa</strong>.
 	</p>
+	
 	<h2 style="text-align: center;">
 		Eli, jos stressitön muutto kuulostaa hyvältä, ole meihin yhteydessä!
 	</h2>
@@ -164,3 +161,11 @@
 		<a href="tel:+358 41 3191233">+358 41 3191233</a>
 	</h2>
 </section>
+
+<style>
+	.otsikko {
+		text-align: center;
+		padding: 10px 0 5vh 0;
+		font-size: 32px;
+	}
+</style>
