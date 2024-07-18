@@ -71,6 +71,16 @@
 		/>
 	</div>
 	<div class="form-question">
+		<label for="lähtö-postinumero">Postinumero</label>
+		<input
+			type="text"
+			id="lähtö-postinumero"
+			name="Postinumero"
+			placeholder="lähtö postinumero"
+			required
+		/>
+	</div>
+	<div class="form-question">
 		<label for="lähtö-kerros">Mikä kerros lähtökohteessa?</label>
 		<input
 			type="number"
