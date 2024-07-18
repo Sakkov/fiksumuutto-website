@@ -2,6 +2,7 @@
 	import './styles.css';
 	import Hero from './Hero.svelte';
 	import Footer from './Footer.svelte';
+	import Chatbot from './Chatbot.svelte';
 	import { inview } from 'svelte-inview';
 	import type { ObserverEventDetails, Options } from 'svelte-inview';
 
@@ -37,8 +38,10 @@ parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-5RBHS
 <div class="app" use:inview={options} on:inview_change={handleChange}>
 	<div class="container">
 		{#if isInView}
-			<Hero />
+		<Hero />
 		{/if}
+		
+		<Chatbot />
 
 		<main>
 			<slot />
