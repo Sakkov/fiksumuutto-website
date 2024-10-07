@@ -18,6 +18,7 @@
 
 <svelte:head>
 	<!-- Top Born Google Tag Manager -->
+	<!-- Top Born Google Tag Manager -->
 	<script>
 		(function (w, d, s, l, i) {
 			w[l] = w[l] || [];
@@ -33,19 +34,14 @@
 	<!-- End Google Tag Manager -->
 
 	<!-- Google Tag Manager -->
-	<script>
-		(function (w, d, s, l, i) {
-			w[l] = w[l] || [];
-			w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-			var f = d.getElementsByTagName(s)[0],
-				j = d.createElement(s),
-				dl = l != 'dataLayer' ? '&l=' + l : '';
-			j.async = true;
-			j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-			f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-MGXZZ8D8');
-	</script>
-	<!-- End Google Tag Manager -->
+
+	<!-- Cookie-script -->
+	<script
+		type="text/javascript"
+		charset="UTF-8"
+		src="//cdn.cookie-script.com/s/ec0e934eceef9e4a791f3d49eedc270c.js"
+	></script>
+	<!-- End Cookie-script -->
 </svelte:head>
 
 <div class="app" use:inview={options} on:inview_change={handleChange}>
