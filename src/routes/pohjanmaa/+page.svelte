@@ -13,11 +13,10 @@
 </script>
 
 <svelte:head>
-	<title>Muutto, Muutot, Muuttopalvelu Vaasa ja Pohjanmaa</title>
+	<title>Muutot, Muuttopalvelu Vaasa - Fiksukuljetus Oy</title>
 	<meta
 		name="description"
-		content="Fiksukuljetus Oy - muuttopalvelu Pohjanmaan ja Pohjanmaan alueella. Edulliset ja tehokkaat muutot
-		juuri sinun aikataulujesi mukaan. Tilaa muutto kauttamme!"
+		content="Luotettava muuttopalvelu Vaasan seudulla yksityisille ja yrityksille. Tehokkaat muutot sovitun aikataulun mukaan vankalla, kokemuksen tuomalla ammattitaidolla. Pyydä tarjous!"
 	/>
 </svelte:head>
 

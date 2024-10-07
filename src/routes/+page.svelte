@@ -13,11 +13,10 @@
 </script>
 
 <svelte:head>
-	<title>Muutto, Muutot, Muuttopalvelu Tampere & Pirkanmaa</title>
+	<title>Muutto, Muutot, Muuttopalvelu Tampere, Ylöjärvi & Pirkanmaa</title>
 	<meta
 		name="description"
-		content="Fiksukuljetus Oy - muuttopalvelu Tampere ja Pirkanmaa alueella. Edulliset ja tehokkaat muutot
-		juuri sinun aikataulujesi mukaan. Tilaa muutto kauttamme!"
+		content="Fiksukuljetus Oy - Luotettava muuttopalvelu Tampere, Ylöjärvi ja koko Pirkanmaa. Edulliset ja tehokkaat muutot sinun aikataulujesi mukaan. Tilaa muutto kauttamme!"
 	/>
 </svelte:head>
 
@@ -65,7 +64,9 @@
 			<img src={Marvostelua} alt="muutto tampere arvostelut" />
 		</a>
 	</div>
-	<h3 style="text-align: center ;">Tarjoamme muuttopalveluja myös <a href="/pohjanmaa">Pohjanmaalla</a>!</h3>
+	<h3 style="text-align: center ;">
+		Tarjoamme muuttopalveluja myös <a href="/pohjanmaa">Pohjanmaalla</a>!
+	</h3>
 	<div class="reviews">
 		<div class="review">
 			<p>
